@@ -1,0 +1,53 @@
+{
+  "fecha_inicio": "2026-11-02T19:58:47",
+  "sistema_operativo": "Windows-11-10.0.26300-SP0",
+  "arquitectura": "AMD64",
+  "cpu": "AMD64 Family 25 Model 68 Stepping 1, AuthenticAMD",
+  "nucleos_logicos": 16,
+  "ram_total_gb": 15.25,
+  "python": "3.14.5 (main, May 12 2026, 01:59:30)  [MINGW GCC UCRT 16.1.0 64 bit (AMD64)]",
+  "numpy": "2.4.6",
+  "reloj": "time.perf_counter (tiempo de pared)",
+  "recolector_basura_durante_medicion": "desactivado (gc.disable)",
+  "ejecutado_en_colab": false,
+  "parametros": {
+    "tamanos": [
+      5,
+      20,
+      100,
+      500,
+      2000
+    ],
+    "repeticiones": 3,
+    "consultas": 400,
+    "radio": 500.0,
+    "n_fijo": 2000,
+    "radios": [
+      100.0,
+      500.0,
+      2000.0
+    ],
+    "dimensiones": [
+      2,
+      3,
+      5
+    ],
+    "repeticiones_aux": 2,
+    "perfil": "rapido"
+  },
+  "argumentos_cli": {
+    "perfil": "rapido",
+    "tamanos": null,
+    "repeticiones": null,
+    "consultas": null,
+    "radio": null,
+    "n_fijo": null,
+    "presupuesto": 10000000,
+    "semilla": "lab4",
+    "salida": "prueba",
+    "graficas": "prueba/graficas",
+    "sin_graficas": false,
+    "solo_resumen": false
+  },
+  "duracion_total_s": 5.6
+}

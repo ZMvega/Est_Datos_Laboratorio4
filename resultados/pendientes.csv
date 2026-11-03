@@ -1,0 +1,13 @@
+consulta,metodo,rango,n_puntos,pendiente,r2,esperada_aprox
+radio,Quadtree,todos los N,14,0.456,0.966,tiende a 1 para N grande: el costo es log N + k y k crece con N (ciudad fija)
+radio,Quadtree,N >= 100,10,0.515,0.9494,tiende a 1 para N grande: el costo es log N + k y k crece con N (ciudad fija)
+radio,Fuerza bruta (lista),todos los N,14,0.968,0.9971,1 (O(N))
+radio,Fuerza bruta (lista),N >= 100,10,1.023,0.9999,1 (O(N))
+radio,Fuerza bruta (NumPy),todos los N,14,0.53,0.8713,1 (O(N)); menos de 1 con N pequeno por el costo fijo de NumPy
+radio,Fuerza bruta (NumPy),N >= 100,10,0.764,0.9665,1 (O(N)); menos de 1 con N pequeno por el costo fijo de NumPy
+vecino,Quadtree,todos los N,14,0.21,0.9275,cercana a 0 (O(log N))
+vecino,Quadtree,N >= 100,10,0.164,0.9819,cercana a 0 (O(log N))
+vecino,Fuerza bruta (lista),todos los N,14,0.957,0.9964,1 (O(N))
+vecino,Fuerza bruta (lista),N >= 100,10,1.018,0.9999,1 (O(N))
+vecino,Fuerza bruta (NumPy),todos los N,14,0.549,0.8829,1 (O(N)); menos de 1 con N pequeno por el costo fijo de NumPy
+vecino,Fuerza bruta (NumPy),N >= 100,10,0.776,0.9691,1 (O(N)); menos de 1 con N pequeno por el costo fijo de NumPy
